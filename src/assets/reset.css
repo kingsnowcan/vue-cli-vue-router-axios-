@@ -1,0 +1,23 @@
+.el-input__inner {
+    box-shadow: none;
+    border:none;
+}
+ 
+.el-input__inner:hover {
+    border-color: #e9e9e9;
+}
+ 
+.el-input__inner:focus {
+    border-color: #42a5f5;
+    box-shadow: none;
+    transition-duration: .5s;
+}
+ 
+.el-input__inner::-webkit-input-placeholder {
+    line-height: 20px;
+}
+ 
+.el-input__inner, .el-checkbox__inner, .el-textarea__inner, .el-button {
+    border-radius: 0;
+    border:none;
+}
